@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-19T15:38:08 IST" name="Ninja Project Automation Suite" finished-at="2024-06-19T15:41:20 IST" duration-ms="191732">
+    <groups>
+    </groups>
+    <test started-at="2024-06-19T15:38:08 IST" name="Ninja Project Test Cases" finished-at="2024-06-19T15:41:20 IST" duration-ms="191732">
+      <class name="com.ninjaproj.qa.testcases.Register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:38:08 IST" name="setup" finished-at="2024-06-19T15:38:39 IST" duration-ms="31288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegAccountWithMandatoryField()[pri:1, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:38:39 IST" name="verifyRegAccountWithMandatoryField" finished-at="2024-06-19T15:38:41 IST" duration-ms="2255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegAccountWithMandatoryField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:38:41 IST" name="tearDown" finished-at="2024-06-19T15:38:42 IST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:38:42 IST" name="setup" finished-at="2024-06-19T15:38:57 IST" duration-ms="15033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegAccByProvidingAllDetails()[pri:2, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:38:57 IST" name="verifyRegAccByProvidingAllDetails" finished-at="2024-06-19T15:38:59 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegAccByProvidingAllDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:38:59 IST" name="tearDown" finished-at="2024-06-19T15:38:59 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:38:59 IST" name="setup" finished-at="2024-06-19T15:39:12 IST" duration-ms="13420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegAccountWithExistingEmailAdd()[pri:3, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:39:12 IST" name="verifyRegAccountWithExistingEmailAdd" finished-at="2024-06-19T15:39:14 IST" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegAccountWithExistingEmailAdd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:39:14 IST" name="tearDown" finished-at="2024-06-19T15:39:14 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:39:14 IST" name="setup" finished-at="2024-06-19T15:39:27 IST" duration-ms="12549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterAccountWithoutFillingDetails()[pri:4, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:39:27 IST" name="verifyRegisterAccountWithoutFillingDetails" finished-at="2024-06-19T15:39:27 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithoutFillingDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninjaproj.qa.testcases.Register@1b1426f4]" started-at="2024-06-19T15:39:27 IST" name="tearDown" finished-at="2024-06-19T15:39:27 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ninjaproj.qa.testcases.Register -->
+      <class name="com.ninjaproj.qa.testcases.Login">
+        <test-method signature="verifyLoginWithValidCreditials(java.lang.String,java.lang.String)[pri:1, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:39:31 IST" name="verifyLoginWithValidCreditials" data-provider="validCreditialsSupplier" finished-at="2024-06-19T15:39:31 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()" because "sheet" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()" because "sheet" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getLastRowNum()" because "sheet" is null
+at com.ninjaproj.qa.utils.Utilities.getTestDataFromExcel(Utilities.java:35)
+at com.ninjaproj.qa.testcases.Login.supplyTestData(Login.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCreditials -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:39:31 IST" name="setup" finished-at="2024-06-19T15:39:47 IST" duration-ms="15282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredintials()[pri:2, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:39:47 IST" name="verifyLoginWithInvalidCredintials" finished-at="2024-06-19T15:39:48 IST" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredintials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:39:48 IST" name="tearDown" finished-at="2024-06-19T15:39:49 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:39:49 IST" name="setup" finished-at="2024-06-19T15:40:01 IST" duration-ms="12031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailandValidPwd()[pri:3, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:40:01 IST" name="verifyLoginWithInvalidEmailandValidPwd" finished-at="2024-06-19T15:40:02 IST" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailandValidPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:40:02 IST" name="tearDown" finished-at="2024-06-19T15:40:02 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:40:02 IST" name="setup" finished-at="2024-06-19T15:40:12 IST" duration-ms="10041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailandInvalidPwd()[pri:4, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:40:12 IST" name="verifyLoginWithValidEmailandInvalidPwd" finished-at="2024-06-19T15:40:14 IST" duration-ms="1660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailandInvalidPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:40:14 IST" name="tearDown" finished-at="2024-06-19T15:40:14 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:40:14 IST" name="setup" finished-at="2024-06-19T15:40:32 IST" duration-ms="17745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithoutCredentials()[pri:5, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:40:32 IST" name="verifyLoginWithoutCredentials" finished-at="2024-06-19T15:40:33 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninjaproj.qa.testcases.Login@52af26ee]" started-at="2024-06-19T15:40:33 IST" name="tearDown" finished-at="2024-06-19T15:40:35 IST" duration-ms="1872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ninjaproj.qa.testcases.Login -->
+      <class name="com.ninjaproj.qa.testcases.Search">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.ninjaproj.qa.testcases.Search@6fd83fc1]" started-at="2024-06-19T15:40:35 IST" name="Setup" finished-at="2024-06-19T15:40:51 IST" duration-ms="16237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.ninjaproj.qa.testcases.Search@6fd83fc1]" started-at="2024-06-19T15:40:51 IST" name="verifySearchWithValidProduct" finished-at="2024-06-19T15:40:52 IST" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninjaproj.qa.testcases.Search@6fd83fc1]" started-at="2024-06-19T15:40:52 IST" name="tearDown" finished-at="2024-06-19T15:40:53 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.ninjaproj.qa.testcases.Search@6fd83fc1]" started-at="2024-06-19T15:40:53 IST" name="Setup" finished-at="2024-06-19T15:41:05 IST" duration-ms="12134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.ninjaproj.qa.testcases.Search@6fd83fc1]" started-at="2024-06-19T15:41:05 IST" name="verifySearchWithInvalidProduct" finished-at="2024-06-19T15:41:06 IST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninjaproj.qa.testcases.Search@6fd83fc1]" started-at="2024-06-19T15:41:06 IST" name="tearDown" finished-at="2024-06-19T15:41:06 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.ninjaproj.qa.testcases.Search@6fd83fc1]" started-at="2024-06-19T15:41:06 IST" name="Setup" finished-at="2024-06-19T15:41:13 IST" duration-ms="6412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifySearchWithoutAnyProduct()[pri:3, instance:com.ninjaproj.qa.testcases.Search@6fd83fc1]" started-at="2024-06-19T15:41:13 IST" name="verifySearchWithoutAnyProduct" finished-at="2024-06-19T15:41:19 IST" duration-ms="6279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutAnyProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninjaproj.qa.testcases.Search@6fd83fc1]" started-at="2024-06-19T15:41:19 IST" name="tearDown" finished-at="2024-06-19T15:41:20 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ninjaproj.qa.testcases.Search -->
+    </test> <!-- Ninja Project Test Cases -->
+  </suite> <!-- Ninja Project Automation Suite -->
+</testng-results>
